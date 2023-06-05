@@ -1,0 +1,42 @@
+Food Court
+1
+A medium-sized mall food court with the usual fast food places. You can try to move from area to area using the 4 cardinal directions north, south, east, and west. Exit to quit the game.
+4
+3
+0
+2
+Zumiez
+2
+You enter a store called Zumiez and notice piles of clothing and accessories.
+0
+1
+0
+0
+H&M
+3
+You enter a store full of clothing racks and mannequins.
+0
+0
+0
+2
+APPLE STORE
+4
+You arrive at a store that has a giant sign that looks like an apple above the doors.
+0
+6
+1
+5
+Bathroom
+5
+You enter a normal mall bathroom with lines of sinks, stalls, and those hand air blowers that never get your hands really dry.
+0
+4
+0
+0
+Foot Locker
+6
+You enter a store full of shoes and accessories for shoes.
+0
+0
+0
+4
