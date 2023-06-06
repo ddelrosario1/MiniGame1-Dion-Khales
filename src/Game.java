@@ -14,8 +14,24 @@ public class Game {
         input = new Scanner(System.in);
     }
 
-    public void play() {
+    public void play() throws FileNotFoundException {
         currentRoom = rooms.get(0);
+
+        //added
+        RoomList rl = new RoomList();
+
+        System.out.println("Welcome to the game!");
+
+        //added
+        System.out.println("Room Info:" );
+        for (Room room : rl.getRoomArray()) {
+            System.out.println(room.getName() + " - " + room.getDescription());
+        }
+
+        System.out.println("You are currently in the " + currentRoom.getName() + ".");
+        System.out.println(currentRoom.getDescription());
+
+
         while (!escape){
             enterRoom(currentRoom);
             currentRoom = rooms.get(move());
